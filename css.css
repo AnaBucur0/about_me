@@ -1,0 +1,156 @@
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+.media{
+    float: right;
+    margin-bottom: 50px;
+   
+}
+.card {
+    width: 500px;
+    max-width: calc(100vw - 10px); 
+    box-shadow: #cad6db 20px 20px 90px;
+    padding-bottom: 2% ;
+    display: block;
+    background-color: #F2C804;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    background: url('pic/yellow_material_design_abstract_4k_8k_hd_abstract.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vw;
+   
+}
+.sectionA, .sectionB {
+    text-align: center;
+  }
+  
+  .sectionB{
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .description {
+    padding: 2% 0%;
+    border-bottom: 1px solid hsla(0, 0%, 40%, .8);
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+   
+h1 {
+    color: #000000;
+    font-family: 'Fira Code', monospace;
+    letter-spacing: 3px;
+}
+h3{
+    color: #000000;
+    font-family: 'Fira Code', monospace;
+}
+p {
+  color: #000000;
+  font-family: Times-New-Roman, Courier, monospace;  font-size: 20px;  
+
+}
+.social-icon {
+ color: #ffffff;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+.fa-2x{
+    font-size: 1.2em;
+}
+  img {
+    width: 120px;
+    height: 120px;
+    padding: 1px;
+    background-color: #F2C804;
+    filter: grayscale(50%);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .img_profil {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+    width: 100%;
+    border: none;
+    background-color: #EF9F01;
+    color: #ffffff;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+  } 
+
+  li:hover {
+    background-color: #000000;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+      filter: grayscale(20%);
+      border-radius: 50%;
+  }

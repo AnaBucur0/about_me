@@ -46,10 +46,11 @@ table {
 
 body {
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
     display: block;
-    background-color: #DBE9EE;
-    padding-top: 20vh;
+    background: url('pic/yellow_material_design_abstract_4k_8k_hd_abstract.jpg') no-repeat center;
+    background-size: cover;
+   
 }
 
 .media{
@@ -58,16 +59,19 @@ body {
 }
 .media ul{
     float: right;
+    align-items: stretch;
+    
 }
 .card {
-  max-width: calc(100vw- 50vw);
-  width: 50%;
-   margin: 0 auto;
-  background-color: #166088;
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
   border-radius: 10px;
   box-shadow: #4F6D7A 20px 20px 90px;
-  padding-bottom: 5% ;
+  padding-bottom: 2% ;
   display: block;
+  background: url('pic/poza.png') no-repeat center;
+  background-size: cover;
 }
 
  .sectionA{
